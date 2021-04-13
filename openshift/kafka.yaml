@@ -3,6 +3,9 @@ kind: Kafka
 metadata:
   name: example-kafka
 spec:
+  entityOperator:
+    topicOperator: {}
+    userOperator: {}
   kafka:
     version: 2.5.0
     replicas: 1
