@@ -1,0 +1,7 @@
+apiVersion: app.kiegroup.org/v1beta1
+kind: KogitoRuntime
+metadata:
+  name: sample-kogito
+spec:
+  replicas: 1
+  image: quay.io/mmacik/sample-kogito # Change according to your image
